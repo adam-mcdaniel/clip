@@ -23,7 +23,6 @@ fn main() {
     let values: Vec<&str> = strings.iter().map(|s| &**s).collect();
 
 
-
     let mut app = App::new(&values[1..])
                 .name("name")
                 .flag("--input", 1)
